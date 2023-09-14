@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+    <h1 class="gear0">testest</h1>
+    <h2 class="gear1">test lgi</h2>
+    <p><b>test aja,</b> testlagi
+    <h3>subtitle</h3>
+    <p style="color:red;"><u>test bg,</u> testest
+    <a href="google.com"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tribunnewswiki.com%2F2022%2F02%2F15%2Fsmak-1-bpk-penabur-bandung&psig=AOvVaw1ryUyynhfaRcmbXtq_bddb&ust=1694161896459000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLjontqKmIEDFQAAAAAdAAAAABAD" alt="scenery"
+    </body>
+
+    <style>
+        h1 {
+            text-align: center;
+            background-color: blueviolet;
+            color:aliceblue;
+        }
+
+        
+    </style>
