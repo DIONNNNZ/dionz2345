@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="appbar">
+        <h1>My Ice Cream Recipe</h1>
+    </div>
+    <div class="content">
+        <img src="https://asset.kompas.com/crops/J4R-3rc1GgmCLRVF-gR9eoZnt00=/0x0:1000x667/780x390/data/photo/2020/04/13/5e940a05bb389.jpg"
+            alt="ice cream">
+        <div class="text">
+            <h2>Ice Cream</h2>
+            <h3>Ingredient</h3>
+            <ul>
+                <li>
+                    <div>
+                        <div>susu UHT</div>
+                        <div>1L</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+
+                        <div>Tepung Jagung</div>
+                        <div>3 Sendok</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div>Milo Bubuk</div>
+                        <div>1 Sendok</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div>Gula Pasir</div>
+                        <div>7 Sendok</div>
+                    </div>
+                </li>
+            </ul>
+            <h3>How to Make</h3>
+            <ol>
+                <li>Campur semua bahan dan rebuslah di panci panas</li>
+                <li>Diamkan beberapa saat pada suhu ruang hingga dingin dan uapnya hilang</li>
+                <li>Tuangkan ke wadah dan bekukan di freezer.</li>
+                <li>Keluarkan dan haluskan dengan mixer</li>
+                <li>Bekukan kembali dan ice cream siap disajikan</li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+<style>
+    /* Removes default padding */
+    *,
+    html,
+    body {
+        font-family: 'Quicksand';
+        margin: 0;
+        padding: 0;
+        color: #424242;
+    }
+
+html {
+    background-color: #F5F5F5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+}
+
+h1 {
+        color: #1F75BE;
+    }
+
+    h2,
+    h3 {
+        padding: 16px;
+    }
+    img {
+        width: 100vw;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+
+    .appbar {
+        padding: 16px;
+        background-color: #FAFAFA;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    ul li div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ol,
+    ul {
+        padding: 0 16px;
+        padding-left: 48px;
+    }
+
+    div.content,
+    div.text {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    @media only screen and (min-width: 600px) {
+        img {
+            width: 50vw;
+            flex: 1;
+        }
+
+        div.content {
+            flex-direction: row;
+            width: 100vw;
+        }
+
+        div.text {
+            flex: 1;
+        }
+    }
+</style>
+
+</html>
