@@ -1,0 +1,52 @@
+[debug] [2023-11-28T10:33:21.450Z] ----------------------------------------------------------------------
+[debug] [2023-11-28T10:33:21.452Z] Command:       /usr/local/share/nvm/versions/node/v20.5.1/bin/node /home/codespace/nvm/current/bin/firebase init
+[debug] [2023-11-28T10:33:21.452Z] CLI Version:   12.9.1
+[debug] [2023-11-28T10:33:21.453Z] Platform:      linux
+[debug] [2023-11-28T10:33:21.453Z] Node Version:  v20.5.1
+[debug] [2023-11-28T10:33:21.453Z] Time:          Tue Nov 28 2023 10:33:21 GMT+0000 (Coordinated Universal Time)
+[debug] [2023-11-28T10:33:21.453Z] Env Overrides: GITHUB_API_URL
+[debug] [2023-11-28T10:33:21.453Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-28T10:33:21.458Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-28T10:33:21.459Z] > authorizing via signed-in user (23_vigiliusdiongiantalim@smak1bpk.penabur.sch.id)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /workspaces/dionz2345
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-28T10:34:56.617Z] > refreshing access token with scopes: []
+[debug] [2023-11-28T10:34:56.619Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-11-28T10:34:56.619Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-28T10:34:56.750Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-11-28T10:34:56.757Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-28T10:34:56.792Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-11-28T10:34:57.518Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-11-28T10:34:57.518Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project my-ice-cream-8c497 (My Ice Cream) 
+[info] 
+=== Hosting Setup
+[debug] [2023-11-28T10:39:11.555Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-ice-cream-8c497 [none]
+[debug] [2023-11-28T10:39:11.821Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-ice-cream-8c497 200
+[debug] [2023-11-28T10:39:11.821Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-ice-cream-8c497 {"projectId":"my-ice-cream-8c497","projectNumber":"985394909449","displayName":"My Ice Cream","name":"projects/my-ice-cream-8c497","resources":{"hostingSite":"my-ice-cream-8c497"},"state":"ACTIVE","etag":"1_0d84d339-fe12-430f-a199-f53121550815"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
